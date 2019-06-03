@@ -1,0 +1,27 @@
+package br.com.zup.ex4;
+
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int votos = entrada.nextInt();
+		
+			
+		Candidato candidato = new Candidato("Zézinho do fut", 17);
+		System.out.println(candidato);
+		
+		
+		
+		if(votos == candidato.getNumeroCandidato()) {
+			System.out.println("Voto efetuado com sucesso");
+		}else {
+			System.out.println("Voto inválido");
+		}
+		
+	}
+	
+	
+}

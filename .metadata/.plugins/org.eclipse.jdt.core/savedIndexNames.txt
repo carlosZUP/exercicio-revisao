@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/zupper/exercicios-revisao/.metadata/.plugins/org.eclipse.jdt.core
+2431768107.index
+917881618.index
+3891717821.index
+1036979504.index

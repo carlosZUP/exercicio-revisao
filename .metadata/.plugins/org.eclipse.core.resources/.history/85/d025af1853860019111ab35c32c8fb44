@@ -1,0 +1,13 @@
+package br.com.zup.ex4;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+			
+		Candidato c = new Candidato("Zézinho do fut", 17, 165);
+		System.out.println(c);
+	}
+	
+	
+}

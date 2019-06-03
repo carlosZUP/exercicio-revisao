@@ -1,0 +1,23 @@
+package br.com.zup.ex3;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int numero ;
+		numero = entrada.nextInt();
+		
+		List<Integer> lista = new ArrayList<Integer>(); 
+		
+		for (int i = numero; i <= entrada.nextInt(); i++) {
+			
+		}
+		
+
+	}
+
+}

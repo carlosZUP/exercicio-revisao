@@ -1,0 +1,44 @@
+package br.com.zup.exercicios;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		List<Integer> media = new ArrayList<Integer>();
+		List <Integer> numeroPar = new ArrayList<Integer>();
+		
+
+		List<Integer> numeroImpar = new ArrayList<Integer>();
+
+		int continuar =0;
+		while(continuar == 0) {
+			
+			for(int num = 0; num  > 0; num++) {
+				System.out.println("Digite os numeros: ");
+				
+				int numero = entrada.nextInt();
+
+
+				if (numero % 2 == 0) {
+					numeroPar.add(numero);				
+					} else {
+					numeroImpar.add(numero);
+				}
+			
+				int resultadoSoma = numeroPar
+				
+				System.out.println("Digite 0 para sair.");
+				continuar = entrada.nextInt();
+			
+		}
+		
+		
+		}
+
+
+	}
+}

@@ -1,0 +1,18 @@
+package br.com.zup.ex3;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.out.println("Digite os numeros");
+		int numero = entrada.nextInt();
+		for (String numeros : args) {
+			System.out.println(numero +",");
+			
+		}
+
+	}
+
+}

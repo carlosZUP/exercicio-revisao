@@ -1,0 +1,23 @@
+package br.com.zup.ex2;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num;
+		System.out.println("Digite o numero da tabuada desejada:");
+		num = sc.nextInt();
+		List<Integer> tabuada = new ArrayList<Integer>();
+		
+		for(int num1 = 1; num <= 10; num ++) {
+			System.out.println("Tabuada do " + num);
+			System.out.println(num * num1);
+		}
+
+	}
+
+}

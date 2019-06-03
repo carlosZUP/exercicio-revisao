@@ -1,0 +1,23 @@
+package br.com.zup.exercicios;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+
+		Scanner entrada = new Scanner(System.in);
+		List<Integer> media = new ArrayList<Integer>();
+
+		for(int num = 0; num  > 0; num++) {
+			int numeroDigitado = entrada.nextInt();
+			System.out.println("Digite os numeros: ");
+			
+			if() {
+			}
+		}
+
+
+	}
+}

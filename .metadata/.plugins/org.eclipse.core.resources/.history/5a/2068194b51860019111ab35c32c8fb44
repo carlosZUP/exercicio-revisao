@@ -1,0 +1,24 @@
+package br.com.zup.ex4;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o nome do candidato:");
+		String nomeCandidato = entrada.next();
+		
+		System.out.println("Qual o numero do canditado:");
+		int numeroCandidato = entrada.nextInt();
+			
+		
+	}
+	
+	public static int contadorVotos() {
+		
+		
+		return 0;
+		
+	}
+}

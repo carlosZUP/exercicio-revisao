@@ -1,0 +1,20 @@
+package br.com.zup.ex4;
+
+public class Candidato {
+
+	private String nomeCandidato;
+	private int numeroCandidato;
+	private int quantidadeVotos;
+	
+	//método construtor
+	public Candidato(String nomeCandidato, int numeroCandidato, int quantidadeVotos) {
+		super();
+		this.nomeCandidato = nomeCandidato;
+		this.numeroCandidato = numeroCandidato;
+		this.quantidadeVotos = quantidadeVotos;
+		
+		
+	}
+	
+	
+}
